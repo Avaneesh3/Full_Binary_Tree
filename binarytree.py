@@ -26,14 +26,14 @@ def Full_BinaryTree_BFS(root_node):       #Checking whether Binary Tree is full 
     return True      #The given binary tree is full
 
 
-#-----------------------------------------Example----------------------------------
+#-----------------------------------------Example 1 - is a full binary tree----------------------------------
 three = Binary_tree_node(3)
 two = Binary_tree_node(2)
 root_node = Binary_tree_node(1,two,three)
 print(Full_BinaryTree_BFS(root_node))
 
 
-#----------------------------------Counter Example----------------------------------
+#---------------------------------- Example 2  - not a full binary tree----------------------------------
 five =  Binary_tree_node(5)
 four =  Binary_tree_node(4)
 three = Binary_tree_node(3)
