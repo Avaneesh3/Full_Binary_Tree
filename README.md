@@ -1,2 +1,2 @@
-#full_binary_tree_using_bfs
+Full Binary Tree using BFS.
 Click on problem_statement.txt for a brief description.
